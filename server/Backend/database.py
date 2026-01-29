@@ -61,7 +61,7 @@ def _open_connection(
         autocommit=True,
         row_factory=namedtuple_row,
         host="localhost",
-        port=5432,
+        port=55432,
         dbname=dbname,
         user=user,
         password=password,
